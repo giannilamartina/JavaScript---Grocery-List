@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Shopping List</h1>
+    <form action="add" method="get">
+      <label for="">Add Item: </label>
+      <input type="text" name="item" />
+      <input type="submit" id="addNeed" value="Need" />
+      <input type="submit" id="addHave" value="Have" />
+    </form>
+    <h2>Need:</h2>
+    <ul class="list">
+      <li>
+        <input type="checkbox" name="item" /> Milk <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" /> Eggs <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" /> Cat Food <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" /> Bacon <a href="#">&#10006;</a>
+      </li>
+    </ul>
+    <h2>Have:</h2>
+    <ul class="list">
+      <li>
+        <input type="checkbox" name="item" checked /> Steak
+        <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" checked /> Cream
+        <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" checked /> Cheese
+        <a href="#">&#10006;</a>
+      </li>
+      <li>
+        <input type="checkbox" name="item" checked /> Apples
+        <a href="#">&#10006;</a>
+      </li>
+    </ul>
+    <script src="/index.js"></script>
+  </body>
+</html>
