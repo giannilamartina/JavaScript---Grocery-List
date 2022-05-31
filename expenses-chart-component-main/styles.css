@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.balance {
+  background-color: red;
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.spending {
+  background-color: tan;
+  width: 50%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
