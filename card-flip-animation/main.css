@@ -1,7 +1,7 @@
 :root {
-  --primary: #ffce00;
-  --secondary: #fe4880;
-  --dark: #212121;
+  --primary: #c4ddff;
+  --secondary: #7fb5ff;
+  --dark: #293462;
   --light: #f3f3f3;
 }
 
@@ -87,7 +87,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: -1;
-  border-radius: 0 0 50% 0;
+  border-radius: 0 0 0 0;
   background-image: linear-gradient(
     to bottom left,
     var(--primary) 10%,
@@ -129,4 +129,10 @@ body {
   color: var(--dark);
   font-size: 18px;
   line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
